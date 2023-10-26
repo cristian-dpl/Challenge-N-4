@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #E11364;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+}
+
+header .back{
+    margin: 20px;
+}
+
+.back a{
+    text-decoration: none;
+}
+
+.back button{
+    padding: 5px 10px;
+    background-color: #F266A7;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.back button:hover{
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}
+
+header h1{
+    width: 100%;
+    max-width: 85%;
+    background-color: #BC105C ;
+    margin: 25px auto;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+main{
+    width: 100%;
+    max-width: 85%;
+    background-color: #BC105C;
+    margin:  auto;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 15px 0 15px 0;
+}
+
+main .galeria{
+    background-color: #FAFAFB;
+    width: 100%;
+    max-width: 98%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+main .galeria img{
+    vertical-align: top;
+    width: 21.4%;
+    height: 150px;
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid #BC105C;
+    opacity: .5;
+}
+
+main .galeria img:hover{
+    opacity: 10;
+    border: 1px solid #E11364;
+    transform: scale(1.1,1.1);
+}
+
+.comprar{
+    background-color: #2C8F20;
+    border: none;
+    border-radius: 5px;
+    color: #FAFAFB;
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 20px auto 5px;
+    padding: 10px;
+}
+
+.comprar:hover{
+    cursor: pointer ;
+    transform: scale(1.1,1.1);
+    background-color: #E11364;
+}

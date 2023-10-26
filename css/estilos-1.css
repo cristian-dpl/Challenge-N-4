@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #E11364;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+}
+
+.container header{
+    width: 100%;
+    max-width: 85%;
+    background-color: #BC105C ;
+    margin: 25px auto;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+}
+
+header h1{
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+main{
+    width: 100%;
+    max-width: 85%;
+    background-color: #BC105C ;
+    border-radius: 5px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+main h2{
+    color: #fff;
+    font-size: 1rem;
+    padding: 30px 10px 0;
+}
+
+main .kart-mortal{
+    background-color: #FAFAFB;
+    width: 100%;
+    max-width: 98%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.kart-mortal h3{
+    color: #9C0037;
+    text-align: end;
+    font-size: 1rem;
+    border-bottom: 2px dotted #9C0037;
+    width: 98%;
+    margin: auto;
+    padding: 20px 0 0 0;
+}
+
+.kart-mortal img{
+    width: 100%;
+    max-width: 98%;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.kart-mortal p{
+    font-size: .6rem;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 98%;
+}
+
+.kart-mortal a{
+    display: block;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.kart-mortal button{
+    background-color: #2C8F20;
+    border: none;
+    border-radius: 5px;
+    color: #FAFAFB;
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: auto;
+    padding: 10px;
+}
+
+.kart-mortal  button:hover{
+    background-color: #E11364;
+    cursor: pointer;
+
+}
+
+footer{
+    background-color: #F266A7;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 85%;
+    margin: 15px auto;
+    padding: 15px;
+}
+
+footer p{
+    color: #FFFFF9;
+    text-align: center;
+}

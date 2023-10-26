@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    background-image: url(/img-2/juego-patrones-fisuras_118813-11742.avif);
+    background-size: cover;
+    width: 100%;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px 0 10px 0;
+}
+
+.container{
+    width: 100%;
+}
+
+.container header{
+    background-color: rgba(36, 36, 35, .8);
+    width: 100%;
+    margin:  0 auto 50px ;
+    border: 1px solid rgba(232, 237, 223, .4);
+}
+
+header h1{
+    color: #e8eddf;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 3px 3px 6px #f5cb5c;
+}
+
+main{
+    background-color: rgba(36, 36, 35, .8);
+    border: 1px solid rgba(232, 237, 223, .4);
+    width: 70%;
+    margin: auto;
+}
+
+main h2{
+    text-align: center;
+    color: #f5cb5c;
+    margin: 20px;
+}
+
+main h2::after{
+    content: "!";
+}
+
+main h2::before{
+    content: "¡";
+}
+
+.kart-mortal img{
+    display: none;
+}
+
+#kart{
+    background-image: url(/img/mario-kart-8-deluxe.jpg);
+    height: 70vh;
+    padding: 30px;
+    margin: 20px;
+    background-size: cover;
+}
+
+#mortal{
+    background-image: url(/img/mortal-kombat-11.jpg);
+    height: 70vh;
+    padding: 30px;
+    margin: 20px;
+    background-size: cover;
+}
+
+.contenido{
+    opacity: 0;
+    background-color: rgba(36, 36, 35, .8);
+    color: #e8eddf;
+    border-radius: 30px;
+    width: 60%;
+    margin: auto;
+    height: 60vh;
+    padding: 20px;
+    overflow: auto;
+    transition: all .3s ease;
+}
+
+.contenido:hover{
+    opacity: 1;
+    cursor: default;
+    transform: rotate(360deg);
+}
+
+.contenido h3{
+    text-align: right;
+    color: #f5cb5c;
+    padding-bottom: 15px;
+}
+
+.contenido p{
+    margin: 15px;
+    text-align: justify;
+}
+
+.contenido a{
+    display: block;
+    text-decoration: none;
+    width: 22%;
+    margin: auto;
+}
+
+.contenido button{
+    padding: 10px 20px;
+    background-color: #f5cb5c;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.contenido button:hover{
+    background-color: #6a4c93;
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgba(36, 36, 35, .8);
+    width: 100%;
+    max-width: 100%;
+    margin: 30px auto 0;
+    padding: 15px;
+    border: 1px solid rgba(232, 237, 223, .4);
+}
+
+footer p{
+    color: #e8eddf;
+    text-align: center;
+    text-shadow: 3px 3px 6px #f5cb5c;
+
+}
+
+
+
+
+
+
